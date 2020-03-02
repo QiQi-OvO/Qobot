@@ -36,8 +36,8 @@ def get_message_key_words(func_message):
     """
     # print(func_message)
     # 课表
-    if func_message.startswith("课表"):
-        return func_message
+    if func_message.find("课表") != -1:
+        return "课表"
     elif func_message.startswith("root"):
         return "root"
     elif func_message.startswith("tell_me"):

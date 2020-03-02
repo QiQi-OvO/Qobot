@@ -183,11 +183,12 @@ def main_run(data):
                 'auto_escape': False
             }
             return sender_data
+        else:
+            pass
 
 
 if __name__ == "__main__":
-    path = ("C:/Users/Administrator/Desktop/课表/526191197.txt")
-    get_course_txt(path)
-    structured_list()
-    print(calculate_time())
+    i = -1
+    if i :
+        print("hello")
     pass
