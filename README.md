@@ -27,4 +27,4 @@ Qobot
 #翻译(中/日/韩/英/粤)语 xxxxxx
 
 #### 备注
-感谢大佬[SaltFishPr](SaltFishPr.github.io)一起带我学习Python和QQ机器人
+感谢大佬[SaltFishPr](https://saltfishpr.github.io/)一起带我学习Python和QQ机器人
