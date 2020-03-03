@@ -1,6 +1,8 @@
 from function_implementation import basic_function
 from function_implementation import school_time_tables
 from function_implementation import weibo_data
+from function_implementation import system_function
+from function_implementation import translate as translate_service
 import main_sender
 
 
@@ -37,6 +39,15 @@ def get_weibo_hot(data):
 def square_extension(data):
     sender_data = basic_function.broadcast_message(data)
     main_sender.send_data(data, sender_data)
+
+def Qobot_off(data):
+    sender_data = system_function.power_off(data)
+    main_sender.send_data(data,sender_data)
+
+def translate_on(data):
+    sender_data = translate_service.main_run(data)
+    main_sender.send_data(data,sender_data)
+
 
 
 if __name__ == '__main__':

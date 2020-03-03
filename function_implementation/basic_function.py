@@ -63,7 +63,7 @@ def incor_format(data):
         sender_qq = m_sender_info['user_id']
         sender_data = {
             'user_id': sender_qq,
-            'message': '[CQ:face,id=27] \n 请尝试输入#号加以下功能哦 \n 课表 \n 微博热搜',
+            'message': ' 请尝试输入#号加以下功能哦 \n 课表   (展示你的私人化定制课表) \n 微博热搜 （实时更新微博热点） \n 翻译(中/日/韩/英/粤)语  自动检测语言翻译成目标语言 ',
             'auto_escape': False
         }
         return sender_data

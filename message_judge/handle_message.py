@@ -38,21 +38,19 @@ def get_message_key_words(func_message):
     # 课表
     if func_message.find("课表") != -1:
         return "课表"
-    elif func_message.startswith("root"):
+    elif func_message.find("root") != -1:
         return "root"
-    elif func_message.startswith("tell_me"):
+    elif func_message.find("tell_me") != -1:
         return func_message
-    elif func_message.startswith("incor_format"):
+    elif func_message.find("incor_format") != -1:
         return func_message
-    elif func_message.startswith("开启测温提示"):
-        return "开启测温提示"
-    elif func_message.startswith("关闭测温提示"):
-        return "关闭测温提示"
-    elif func_message.startswith("喷人") or func_message.startswith("骂人"):
-        return "骂人"
-    elif func_message.startswith("微博热") or func_message.startswith("微博热"):
+    elif func_message.find("微博热")  != -1:
         return "微博热搜"
-    elif func_message.startswith("推广广场"):
+    elif func_message.find("推广广场") != -1:
         return "推广广场"
+    elif func_message.find("关机") != -1:
+        return "关机"
+    elif func_message.find("翻译") !=-1:
+        return "翻译"
     else:
         pass

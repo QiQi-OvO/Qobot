@@ -2,7 +2,8 @@ from flask import Flask, request
 from json import loads
 import requests
 from function_judge import function_rec
-
+DATA_INVA_FLAG = 0 #数据无效化标志
+LAST_STATUS_REG = "" #使数据无效化的命令
 bot_server = Flask(__name__)
 
 

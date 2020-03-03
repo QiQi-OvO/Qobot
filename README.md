@@ -8,6 +8,7 @@ Qobot
 1. API的调用实现接受发送QQ信息
 2. Python 二维list、datetime配合使用通过文件输入的形式定制每个用户的课表
 3. 通过简单爬虫和正则表达式爬取微博热搜榜单
+4. 通过认证信息获得百度翻译API支持多国语言的翻译
 
 
 功能使用方法
@@ -22,6 +23,8 @@ Qobot
 #推广广场
 5. 通过特定的文件读取为得到作者允许的用户生成QQ提示课表:
 #课表
+6. 翻译中日韩英粤语言，通过API申请得到翻译
+#翻译(中/日/韩/英/粤)语 xxxxxx
 
 #### 备注
-感谢大佬[SaltFishPr](http://www.SaltFishPr.github.io)一起带我学习Python和QQ机器人
+感谢大佬[SaltFishPr](SaltFishPr.github.io)一起带我学习Python和QQ机器人
