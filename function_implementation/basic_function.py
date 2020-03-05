@@ -1,7 +1,7 @@
 import message_judge.handle_message as handle_message
 
 ROOT_ID = '2763359332'
-BROADCAST_DATA = 'http://120.25.231.117:8080/'
+BROADCAST_DATA = 'http://120.25.231.117:8081/'
 
 
 def no_function_tip(data):
